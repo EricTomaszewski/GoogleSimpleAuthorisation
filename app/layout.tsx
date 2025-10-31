@@ -3,7 +3,7 @@ export const metadata = {
   description: "Google + Email/Password auth on Firebase, deployed to Vercel",
 };
 
-import "./globals.css";
+import './globals.css';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
