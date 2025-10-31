@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: #0b0f14; color: #e6edf3; }
+main { min-height: 100dvh; display: grid; place-items: center; padding: 2rem; }
+.card {
+  width: 100%; max-width: 560px; background: #10161d; border: 1px solid #1f2937; border-radius: 12px; padding: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+h1 { margin-top: 0; font-size: 1.4rem; }
+input { width: 100%; padding: 10px 12px; margin: 6px 0 12px; border-radius: 8px; border: 1px solid #283341; background: #0f1720; color: #e6edf3; }
+button { padding: 10px 12px; border-radius: 8px; border: 1px solid #283341; background: #111827; color: #e6edf3; cursor: pointer; }
+button:hover { background: #1f2937; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+.muted { color: #9aa7b2; font-size: 0.9rem; }
+.sep { height: 1px; background: #1f2937; margin: 16px 0; }
+.badge { padding: 2px 8px; border: 1px solid #2b3442; border-radius: 999px; font-size: 12px; }
+footer { margin-top: 12px; font-size: 12px; color: #93a1ad; text-align: center; }
